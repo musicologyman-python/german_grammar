@@ -48,15 +48,15 @@ class App(tk.Tk):
         main_content_frame = tk.Frame(self, padx=5, pady=5)
         main_content_frame.pack()
 
-        for i, gender in enumerate(GENDERS, start=1):
-            tk.Label(main_content_frame, 
-                     text=gender,
-                     font=App._BOLD_FONT).grid(row=i, column=0, sticky=tk.W)
-
         for i, case_ in enumerate(CASES, start=1):
             tk.Label(main_content_frame, 
                      text=case_,
                      font=App._BOLD_FONT).grid(row=0, column=i)
+
+        for i, gender in enumerate(GENDERS, start=1):
+            tk.Label(main_content_frame, 
+                     text=gender,
+                     font=App._BOLD_FONT).grid(row=i, column=0, sticky=tk.W)
 
         self.answer_variables = [tk.StringVar(self) for _ in range(16)]
 
