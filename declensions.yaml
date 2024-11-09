@@ -1,0 +1,42 @@
+---
+category: definite articles
+declensions:
+  accusative:
+    feminine: die
+    masculine: den
+    neuter: das
+    plural: die
+  nominative:
+    feminine: die
+    masculine: der
+    neuter: das
+    plural: die
+  dative:
+    masculine: dem
+    feminine: der
+    neuter: dem
+    plural: den
+  genitive:
+    masculine: des
+    feminine: der
+    neuter: des
+    plural: der
+---
+category: indefinite articles
+declensions:
+  nominative:
+    masculine: ein
+    feminine: eine
+    neuter: ein
+  accusative:
+    masculine: einen
+    feminine: eine
+    neuter: ein
+  dative:
+    masculine: einem
+    feminine: einer
+    neuter: einem
+  genitive:
+    masculine: eines
+    feminine: einer
+    neuter: eines
