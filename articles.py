@@ -26,6 +26,7 @@ class GenderCaseEnum(enum.Enum):
     GENITIVE_NEUTER      = 14
     GENITIVE_PLURAL      = 15
 
+
 answers = 'der die das die den die das die dem der dem den des der des der'.split()
 
 class App(tk.Tk):

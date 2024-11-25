@@ -2,7 +2,9 @@ import inspect
 from pathlib import Path
 from pprint import pprint
 import tkinter as tk
+import tkinter.ttk as ttk
 import tkinter.filedialog as fd
+
 
 from toolz.functoolz import compose_left
 
